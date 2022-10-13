@@ -64,7 +64,7 @@ Once you update your README file, the next step is to understand what each of th
   - `notebooks` - all Jupyter Notebook files should be kept in this parent directory. Keep this folder organized and have as few notebooks in here as possible.
     - `notebooks/analysis1.ipynb` : Teammate 1 should have Jupyter Notebook work stored here. Remember to change the header in this file to your names or an alias. Don't change the name of this file.
     - `notebooks/analysis2.ipynb` : Teammate 2 should have Jupyter Notebook work stored here. Remember to change the header in this file to your names or an alias. Don't change the name of this file.
-    - `notebooks/analysis3.ipynb` : Teammate 3 should have Jupyter Notebook work stored here. Remember to change the header in this file to your names or an alias. Don't change the name of this file.
+    - `notebooks/analysis3.ipynb` : Teammate 3 should have Jupyter Not ebook work stored here. Remember to change the header in this file to your names or an alias. Don't change the name of this file.
     - `notebooks/ungraded/` : Anything you don't want to be marked or looked at can be placed in this folder.   
     - You may add additional subdirectories within the current structure, but try to avoid creating any directories in the project root. If you have questions about this, you can ask the project TA.
   - `dashboard` - this folder won't be used until Milestone 04 where you will be working with tableau to turn your dataset into a dashboard.
