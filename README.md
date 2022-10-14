@@ -18,7 +18,7 @@ This data is used in Machine Learning with R by Brett Lantz, a book that provide
 
 ## Images
 
-<img src = https://github.com/ubco-W2022T1-cosc301/project-group21/blob/main/images/groupimg.jpeg?raw=true>
+![Group21 Photo](images/groupimg.jpeg)
 
 ## References
 
