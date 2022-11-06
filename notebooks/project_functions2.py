@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": "null",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -17,7 +17,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": "null",
    "metadata": {},
    "outputs": [
     {
@@ -183,7 +183,7 @@
        "[1338 rows x 7 columns]"
       ]
      },
-     "execution_count": null,
+     "execution_count": "null",
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -195,7 +195,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": "null",
    "metadata": {},
    "outputs": [
     {
@@ -323,7 +323,7 @@
        "[564 rows x 3 columns]"
       ]
      },
-     "execution_count": null,
+     "execution_count": "null",
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -406,7 +406,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": "null",
    "metadata": {},
    "outputs": [],
    "source": []
