@@ -9,16 +9,18 @@ def load_and_process(url_or_path_to_csv_file):
             pd.read_csv(url_or_path_to_csv_file)
         )
         .drop(columns=['sex', 'bmi', 'children', 'region'])
-        .rename(columns = {'age':'Age', 'smoker':'Smoker','charges':'Total Charges'})
+        .rename(columns = {'age':'Age', 'smoker':'Smoker','charges':'Total_Charges'})
     )
 
-    df.drop_duplicates
-    df['Total Charges'] = df['Total Charges'].round(decimals = 2)
-    df['Smoker'] = df['Smoker'].astype('category')
-    df.reset_index(drop=True)
-    
+    df.drop_duplicates(inplace=True)
+    df['Smoker'] = df['Smoker'].astype('category') #The original type for this column was 'object' which was checked using the code df.info() 
+    df.reset_index()
     return df
 
+def describe(df):
+    print(f'The age of the people in this dataset range from {df.Age.min()} to {df.Age.max()} with a mean of {round(df.Age.mean(),1)}.')
+    print(f'Total charges for these people range from ${round(df.Total_Charges.min(),2)} to ${round(df.Total_Charges.max(),2)} with a mean of ${round(df.Total_Charges.mean(),2)}.') 
+    print(f'There are a total of {df.Smoker.value_counts().yes} smokers and {df.Smoker.value_counts().no} non-smokers in this dataset.')
 
 def removeOutliers(data):
     for x in ['Total Charges']:
@@ -35,13 +37,3 @@ def removeOutliers(data):
         data.dropna(axis = 0)
     return print(f'Removed all outliers')
 
-
-def final_graphs (data):
-    
-    plot1 = sns.barplot(data=data, x="Smoker", y="Total Charges", errorbar=("se"))
-    plt.title('Medical Insurance Bills for Smokers and Non-Smokers')
-
-    plot2 = data.plot(kind = 'scatter', x = 'Age', y = 'Total Charges')
-    plt.title('Increasing Age and Medical Insurance Bills')
-    
-    return plot1, plot2
