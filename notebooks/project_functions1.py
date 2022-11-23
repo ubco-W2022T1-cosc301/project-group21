@@ -20,6 +20,25 @@ def load_and_process(path):
 
     return df1
 
+def wrangle(df1):
+    df1["BMI_Class"] = np.nan
+    lst = [df1]
+
+    for col in lst:
+        col.loc[col["bmi"] < 18.5, "BMI_Class"] = "Underweight"
+        col.loc[(col["bmi"] >= 18.5) & (col["bmi"] < 25), "BMI_Class"] = "Normal Weight"
+        col.loc[(col["bmi"] >= 25) & (col["bmi"] < 30), "BMI_Class"] = "Overweight"
+        col.loc[col["bmi"] >= 30, "BMI_Class"] = "Obese"
+        
+    df1["SMOB Status"] = np.nan
+    lst = [df1]
+
+    for col in lst:
+        col.loc[((col["BMI_Class"] != 'Obese') & (col["smoker"] == 'yes')), "SMOB Status"] = "Non-obese Smoker"
+        col.loc[((col["BMI_Class"] == 'Obese') & (col["smoker"] == 'no')), "SMOB Status"] = "Obese non-smoker"
+        col.loc[((col["BMI_Class"] == 'Obese') & (col["smoker"] == 'yes')), "SMOB Status"] = "Obese Smoker"
+        
+        
 #These are sub methods to replace specific types of categorical data into numeric ones, so that it can be put into a correlation matrix
 def clean(x):
     x = x.replace("female","0").replace("male","1")
