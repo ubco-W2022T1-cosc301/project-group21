@@ -28,23 +28,23 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='analysis2adata' name='textscan.1jtdcm917wlwtd1gupkcp19e5iz2'>
-            <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/arani.chatterjeegmail.com/school/cosc301/project/project-group21/data/processed/analysis2adata.csv' dataRefreshTime='' directory='/Users/arani.chatterjeegmail.com/school/cosc301/project/project-group21/data/processed' filename='/var/folders/n4/613d_hfx1fzddnwhz6xj7_5c0000gn/T/tableau-temp/0fvk6oo0bv3t381h4oszg0qko29v/analysis2adata.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/arani.chatterjeegmail.com/school/cosc301/project/project-group21/data/processed/analysis2adata.csv' dataRefreshTime='' directory='/Users/arani.chatterjeegmail.com/school/cosc301/project/project-group21/data/processed' filename='/var/folders/n4/613d_hfx1fzddnwhz6xj7_5c0000gn/T/tableau-temp/10ui4do10xixf310t8sqb0bozqgr/analysis2adata.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1jtdcm917wlwtd1gupkcp19e5iz2' name='analysis2adata.csv' table='[analysis2adata#csv$]' type='table'>
-          <columns character-set='UTF-8' gridOrigin='A1:D565:no:A1:D565:1' header='yes' locale='en_IN' separator=','>
+          <columns character-set='UTF-8' gridOrigin='A1:D566:no:A1:D566:2' header='yes' locale='en_IN' separator=','>
             <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='integer' name='age' ordinal='1' />
-            <column datatype='real' name='bmi' ordinal='2' />
-            <column datatype='real' name='charges' ordinal='3' />
+            <column datatype='integer' name='age age' ordinal='1' />
+            <column datatype='real' name='bmi bmi' ordinal='2' />
+            <column datatype='real' name='charges charges' ordinal='3' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1jtdcm917wlwtd1gupkcp19e5iz2' name='analysis2adata.csv' table='[analysis2adata#csv$]' type='table'>
-          <columns character-set='UTF-8' gridOrigin='A1:D565:no:A1:D565:1' header='yes' locale='en_IN' separator=','>
+          <columns character-set='UTF-8' gridOrigin='A1:D566:no:A1:D566:2' header='yes' locale='en_IN' separator=','>
             <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='integer' name='age' ordinal='1' />
-            <column datatype='real' name='bmi' ordinal='2' />
-            <column datatype='real' name='charges' ordinal='3' />
+            <column datatype='integer' name='age age' ordinal='1' />
+            <column datatype='real' name='bmi bmi' ordinal='2' />
+            <column datatype='real' name='charges charges' ordinal='3' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
@@ -56,7 +56,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='integer' name='context'>1</attribute>
               <attribute datatype='string' name='gridOrigin'>&quot;A1:D565:no:A1:D565:1&quot;</attribute>
               <attribute datatype='integer' name='lost'>0</attribute>
               <attribute datatype='integer' name='outcome'>1</attribute>
@@ -141,11 +141,11 @@
           <object caption='analysis2adata.csv' id='analysis2adata.csv_558768F870E14CC89C06D0F03A14FBF1'>
             <properties context=''>
               <relation connection='textscan.1jtdcm917wlwtd1gupkcp19e5iz2' name='analysis2adata.csv' table='[analysis2adata#csv$]' type='table'>
-                <columns character-set='UTF-8' gridOrigin='A1:D565:no:A1:D565:1' header='yes' locale='en_IN' separator=','>
+                <columns character-set='UTF-8' gridOrigin='A1:D566:no:A1:D566:2' header='yes' locale='en_IN' separator=','>
                   <column datatype='integer' name='F1' ordinal='0' />
-                  <column datatype='integer' name='age' ordinal='1' />
-                  <column datatype='real' name='bmi' ordinal='2' />
-                  <column datatype='real' name='charges' ordinal='3' />
+                  <column datatype='integer' name='age age' ordinal='1' />
+                  <column datatype='real' name='bmi bmi' ordinal='2' />
+                  <column datatype='real' name='charges charges' ordinal='3' />
                 </columns>
               </relation>
             </properties>
@@ -379,8 +379,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98330' id='15' param='vert' type-v2='layout-flow' w='98910' x='545' y='835'>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98330' id='21' param='vert' type-v2='layout-flow' w='98910' x='545' y='835'>
                 <zone fixed-size='280' h='49165' id='3' is-fixed='true' name='A1' w='49455' x='545' y='835'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
