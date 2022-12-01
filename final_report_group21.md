@@ -19,6 +19,17 @@ The correlation matrix converts all data types to a numeric form and shows how s
 The pairplot visualization further improves our confidence in the correlational strength seen in the matrices by providing a visual aspect to the trend. They can be seen explicitly in the age to charges plot and somewhat in the bmi to charges plot.
 
 ## Research Question 1 + Result
+[You can find the full analysis notebook here, along with the code and data here](notebooks/analysis1.ipynb)
+
+Q1: Between Smoking and Obesity, which factor contributes more to higher charges of medical coverage?
+
+![Obesity and Age against Charges](images/obeseagechar.png)
+
+This visualization gives the idea that when we compare the points above the $30000 mark in both plots, it can be seen that these beneficiaries are both smokers and obese. This makes it unclear whether these high charges were a result of the smoking or obesity factor, hence inspiring the research question. As such, some data wrangling was required to classify the BMIs of the beneficiaries. We can the compare the charges of Obese non-smokers and Non-obese Smokers to figure out who pays more. 
+
+![SMOB status against charges](images/smobstatus.png)
+
+Non-Obese smokers pay more than double the amount that obese non-smokers do, showing that smoking might have much more of an impact on higher medical charges than obesity. Unsurprisingly, beneficiaries who are both obese and smokers pay even more (nearly 40000 dollars on average!). We can conclude that both factors result in higher medical charges, however, smoking contributes more than obesity as a factor.
 
 
 
