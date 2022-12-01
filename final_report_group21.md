@@ -45,6 +45,8 @@ For reasons inconclusive, the BMI range of 30-40 and the age-range of 20-40 sees
 ## Research Question 3 + Result
 a) Is there a significant difference in medical costs billed between a smoker and a non-smoker?
 
+[You can find the full analysis notebook here, along with the code and data here](notebooks/analysis3.ipynb)
+
 ![](images/Analysis_3_Plot1.png)
 
 There is a noticeably higher amount of medical insurance charges associated with smokers compared to non-smokers. There is a significant difference in the total medical costs of an individual between a smoker and a non-smoker. To understand if the data is statistically significant, an independent samples t-test has to be done by studying the hypotheses stated above.
