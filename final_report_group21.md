@@ -45,37 +45,13 @@ For reasons inconclusive, the BMI range of 30-40 and the age-range of 20-40 sees
 ## Research Question 3 + Result
 a) Is there a significant difference in medical costs billed between a smoker and a non-smoker?
 
-![](Analysis_3_Plot1.png)
+![](images/Analysis_3_Plot1.png)
 
 There is a noticeably higher amount of medical insurance charges associated with smokers compared to non-smokers. There is a significant difference in the total medical costs of an individual between a smoker and a non-smoker. To understand if the data is statistically significant, an independent samples t-test has to be done by studying the hypotheses stated above.
 
 b) Is there a positive correlation between an individual's age and the medical costs billed by health insurance?
 
-![](Analysis_3_Plot2.png)
-
-There is a positive linear correlation between an individual's age and the medical costs billed by health insurance. In other words, medical insurance costs are higher with increasing age. To find the effect size of this correlation, a Pearson's correlation test has to be done to study the hypotheses stated above. In the future, this research question could be studied more in-depth with other factors such as BMI or gender which may interact with age to result in particular medical bills.s such as bmi or gender which may interact with age to result in particular medical bills.
-
-a) Is there a significant difference in medical costs billed between a smoker and a non-smoker?
-
-![](Analysis_3_Plot1.png)
-
-There is a noticeably higher amount of medical insurance charges associated with smokers compared to non-smokers. There is a significant difference in the total medical costs of an individual between a smoker and a non-smoker. To understand if the data is statistically significant, an independent samples t-test has to be done by studying the hypotheses stated above.
-
-b) Is there a positive correlation between an individual's age and the medical costs billed by health insurance?
-
-![](Analysis_3_Plot2.png)
-
-There is a positive linear correlation between an individual's age and the medical costs billed by health insurance. In other words, medical insurance costs are higher with increasing age. To find the effect size of this correlation, a Pearson's correlation test has to be done to study the hypotheses stated above. In the future, this research question could be studied more in-depth with other factors such as BMI or gender which may interact with age to result in particular medical bills.s such as bmi or gender which may interact with age to result in particular medical bills.
-
-a) Is there a significant difference in medical costs billed between a smoker and a non-smoker?
-
-![](Analysis_3_Plot1.png)
-
-There is a noticeably higher amount of medical insurance charges associated with smokers compared to non-smokers. There is a significant difference in the total medical costs of an individual between a smoker and a non-smoker. To understand if the data is statistically significant, an independent samples t-test has to be done by studying the hypotheses stated above.
-
-b) Is there a positive correlation between an individual's age and the medical costs billed by health insurance?
-
-![](Analysis_3_Plot2.png)
+![](images/Analysis_3_Plot2.png)
 
 There is a positive linear correlation between an individual's age and the medical costs billed by health insurance. In other words, medical insurance costs are higher with increasing age. To find the effect size of this correlation, a Pearson's correlation test has to be done to study the hypotheses stated above. In the future, this research question could be studied more in-depth with other factors such as BMI or gender which may interact with age to result in particular medical bills.s such as bmi or gender which may interact with age to result in particular medical bills.
 
